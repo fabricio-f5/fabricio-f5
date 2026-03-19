@@ -30,6 +30,7 @@ Built **A.I.S (Automation Interface System)** — a proprietary microservices pl
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Terragrunt](https://img.shields.io/badge/Terragrunt-344A5E?style=flat-square&logo=terraform&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
@@ -39,6 +40,7 @@ Built **A.I.S (Automation Interface System)** — a proprietary microservices pl
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
 ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white)
+![Checkov](https://img.shields.io/badge/Checkov-4B5EAA?style=flat-square&logo=checkov&logoColor=white)
 
 **Development**
 
@@ -56,12 +58,30 @@ Built **A.I.S (Automation Interface System)** — a proprietary microservices pl
 
 ## 🚀 Featured Projects
 
+### 🏗️ [hands-on-satubinha-iac-terragrunt](https://github.com/fabricio-f5/hands-on-satubinha-iac-terragrunt)
+> Terraform · Terragrunt · AWS · GitHub Actions · OIDC · Checkov
 
+Multi-environment AWS infrastructure (dev/staging/prod) using the **DRY pattern with Terragrunt** — eliminating code duplication across environments. Single S3 bucket with path-isolated state per environment. OIDC authentication (zero static credentials), IMDSv2, encrypted EBS, and Checkov security scanning on every pipeline run.
 
-### ⚙️ A.I.S — Automation Interface System
-> Python · Microservices · Industrial Automation · APIs
+`terraform` `terragrunt` `aws` `iac` `oidc` `github-actions` `checkov`
 
-Proprietary platform for industrial data collection and system integration. Designed and built from the ground up as a distributed microservices architecture.
+---
+
+### 🔧 [hands-on-satubinha-iac](https://github.com/fabricio-f5/hands-on-satubinha-iac)
+> Terraform · AWS EC2 · IAM · S3 · GitHub Actions · OIDC · Checkov
+
+Production-grade IaC with **modular Terraform** — dedicated modules for EC2, IAM, ECR, Security Groups, Key Pair and S3. Separated foundation layer (OIDC + GitHub Actions IAM Role) from environment layers (dev/staging/prod) to prevent accidental destroy of account-level resources. SSH key injected via GitHub Secret — no file ever touches the runner.
+
+`terraform` `aws` `iac` `multi-environment` `oidc` `security` `checkov`
+
+---
+
+### 🐳 [satubinha-app](https://github.com/fabricio-f5/satubinha-app)
+> Docker Compose · PostgreSQL · Flyway · Node.js · Chainguard · Docker Secrets
+
+Full stack application with **ordered startup and dependency-aware healthchecks** — PostgreSQL (Chainguard) → Flyway migrations → API → Frontend. Docker Secrets for credentials, private bridge network, and hardened Chainguard images throughout. Demonstrates real-world container orchestration patterns before Kubernetes.
+
+`docker` `docker-compose` `postgresql` `flyway` `chainguard` `healthchecks` `docker-secrets`
 
 ---
 
