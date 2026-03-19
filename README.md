@@ -69,8 +69,6 @@ Proprietary platform for industrial data collection and system integration. Desi
 
 <div align="center">
 
-![Fabrício's GitHub Stats](https://github-readme-stats.vercel.app/api?username=fabricio-f5&show_icons=true&theme=dark&hide_border=true&count_private=true)
-
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fabricio-f5&layout=compact&theme=dark&hide_border=true)
 
 </div>
