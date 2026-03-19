@@ -5,7 +5,7 @@
 
 *"If you're looking for someone who will take full ownership of your infrastructure situations — that person is me."*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/fabricio-f5)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/fabriciowplima)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fabricio-f5)
 [![Location](https://img.shields.io/badge/📍_Lisboa,_Portugal-grey?style=for-the-badge)](https://github.com/fabricio-f5)
 
@@ -69,6 +69,7 @@ Proprietary platform for industrial data collection and system integration. Desi
 
 <div align="center">
 
+
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fabricio-f5&layout=compact&theme=dark&hide_border=true)
 
 </div>
@@ -88,18 +89,3 @@ I'm open to **freelance projects**, **contract work**, and **full-time remote ro
 <div align="center">
 <sub>Updated March 2026 · Lisboa, Portugal</sub>
 </div>
-
-<!--
-**fabricio-f5/fabricio-f5** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
